@@ -89,6 +89,7 @@ git clone [https://github.com/itz-Mayank/Bank_Term_Deposit_Subscription_Predicti
 cd Bank_Term_Deposit_Subscription_Prediction
 ```
 **2. Create a Python Environment**
+
 It is highly recommended to use a virtual environment (e.g., Conda) to manage dependencies.
 
 ```
@@ -97,14 +98,17 @@ conda activate bank_predictor
 ```
 
 **3. Install Dependencies**
+
 Install all the required libraries from the requirements.txt file.
 ```
 pip install -r requirements.txt
 ```
 ### 🚀 Usage
+
 There are two main ways to use this repository:
 
 **1. Training the Model**
+
 To re-run the entire training, tuning, and evaluation process, open and run the main notebook:
 ```
 jupyter lab main_notebook.ipynb
