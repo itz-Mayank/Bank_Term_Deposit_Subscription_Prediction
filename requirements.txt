@@ -1,28 +1,9 @@
-# --------------------------------------------------------------------------
-# REQUIREMENTS FOR BANK TERM DEPOSIT PREDICTION STREAMLIT APP
-# --------------------------------------------------------------------------
-# This file lists the exact packages needed to run the prediction app.
-# Use 'pip install -r requirements.txt' in a clean environment to install.
-# --------------------------------------------------------------------------
-
-# --- Core Application Framework ---
-streamlit==1.35.0
-
-# --- Data Handling & Core Numerics ---
-pandas==2.1.4
-numpy==1.26.4
-
-# --- Machine Learning Pipeline & Models ---
-# scikit-learn is essential for the Pipeline, ColumnTransformer, and base models.
-scikit-learn==1.3.2
-joblib==1.3.2
-
-# These are the base estimators used in your saved StackingClassifier.
-lightgbm==4.1.0
-xgboost==2.0.3
-catboost==1.2.5
-
-# --- Optional GPU Check ---
-# Required for the torch-based GPU check in your local training script.
-# This installs the CPU-only version, which is standard for most deployment platforms.
-torch==2.1.2
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+lightgbm
+xgboost
+catboost
+torch
