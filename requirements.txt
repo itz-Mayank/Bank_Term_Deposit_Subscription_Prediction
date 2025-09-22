@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+joblib
+shap
+scikit-learn==1.3.2
+imbalanced-learn
+lightgbm
+xgboost
+catboost
+streamlit
+torch
+torchaudio
+torchvision
