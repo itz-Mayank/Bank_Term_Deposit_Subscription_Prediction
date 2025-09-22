@@ -1,5 +1,5 @@
-<img width="1919" height="1079" alt="image" src="<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a750e4b3-efea-4b4b-805c-b5906f4b036a" />
-" /># 🏦 Bank Term Deposit Subscription Prediction
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a750e4b3-efea-4b4b-805c-b5906f4b036a" />
+# 🏦 Bank Term Deposit Subscription Prediction
 
 
 
