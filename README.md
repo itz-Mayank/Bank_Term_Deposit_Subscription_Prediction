@@ -1,7 +1,6 @@
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a750e4b3-efea-4b4b-805c-b5906f4b036a" />
+
 # 🏦 Bank Term Deposit Subscription Prediction
-
-
 
 This project delivers an end-to-end machine learning solution for predicting whether a bank client will subscribe to a term deposit. By leveraging advanced modeling techniques, this predictor enables targeted marketing campaigns, optimizes resource allocation, and provides data-driven insights for strategic decision-making.
 
