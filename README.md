@@ -6,7 +6,7 @@ This project delivers an end-to-end machine learning solution for predicting whe
 
 ## Live: https://banktermdepositsubscriptionprediction.streamlit.app/
 ---
-## ✨ Key Features & Technical Highlights
+## Key Features & Technical Highlights
 
 -   **End-to-End ML Pipeline**: A complete, reproducible workflow from raw data ingestion to a saved, production-ready model using `scikit-learn` and `imblearn` pipelines.
 -   **Advanced Feature Engineering**: Creation of interaction features (e.g., `balance_per_age`) and meaningful ordinal encoding for features like `education`.
@@ -18,7 +18,7 @@ This project delivers an end-to-end machine learning solution for predicting whe
 -   **Ready for Deployment**: The project concludes with a saved, unified pipeline and a complete Streamlit application script (`app.py`) for live predictions.
 
 ---
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category                 | Technologies & Libraries                                                                              |
 | ------------------------ | ----------------------------------------------------------------------------------------------------- |
@@ -30,14 +30,14 @@ This project delivers an end-to-end machine learning solution for predicting whe
 | **Development** | `Jupyter Notebook`, `Kaggle Notebooks`, `Google Colab`                                                  |
 
 ---
-## 🔄 Project Workflow
+## Project Workflow
 
 The project follows a structured workflow designed to ensure robustness and prevent data leakage:
 
 `Data Loading` → `Feature Engineering` → `Data Splitting (80/20)` → `Preprocessing Pipeline (Fit on Train)` → `Resampling (on Train)` → `Hyperparameter Tuning (CV on Resampled Train)` → `Stacking Ensemble` → `Final Evaluation` → `SHAP Analysis` → `Save Artifacts`
 
 ---
-## 📊 Final Model Performance
+## Final Model Performance
 
 The models were evaluated on the 20% held-out test set after optimizing the prediction threshold to maximize the F1-Score. The leaderboard below shows that the tuned **LightGBM** model achieved the highest F1-Score in this run, closely followed by the other advanced models.
 
@@ -49,7 +49,7 @@ The models were evaluated on the 20% held-out test set after optimizing the pred
 | **Stacking Ensemble** |  0.9286  |     0.6757      |    0.7853    |     0.7264     | 0.9628  |
 
 ---
-## 🧠 Model Explainability with SHAP
+## Model Explainability with SHAP
 
 The SHAP summary plot reveals the most influential features driving the model's predictions for the positive class ("Yes" - will subscribe).
 
@@ -61,7 +61,7 @@ The SHAP summary plot reveals the most influential features driving the model's 
 -   **Financials & Demographics**: Features like `balance`, `age`, and `housing` also play important roles, with their impact varying for each individual prediction.
 
 ---
-## 📁 Repository Structure
+## Repository Structure
 ```
 bank-term-deposit-prediction/
 │
@@ -80,7 +80,7 @@ bank-term-deposit-prediction/
 ```
 
 ---
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 Follow these steps to set up the project environment.
 
@@ -104,7 +104,7 @@ Install all the required libraries from the requirements.txt file.
 ```
 pip install -r requirements.txt
 ```
-### 🚀 Usage
+### Usage
 
 There are two main ways to use this repository:
 
@@ -120,5 +120,5 @@ To launch the user-facing web application for live predictions, ensure you have 
 ```
 streamlit run app.py
 ```
-✍️ Author
+### Author
 Created by `Mayank Meghwal`
